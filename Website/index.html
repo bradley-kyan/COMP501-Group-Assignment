@@ -2,6 +2,10 @@
 <html>
 <head>
 <title>My first styled page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="styles/bootstrap.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.js" type="text/javascript"></script>
 <style>
 html {
 	scroll-behavior: smooth
@@ -9,45 +13,90 @@ html {
 body {
 	background: #FFFFFF
 }
-/* Colout Pallete: #2274A5, #FFFFFF, #E9F1F7, #131B23, #816C61,#B8BCC1 */	
+/* Colout Pallete: #2274A5, #FFFFFF, #E9F1F7, #131B23, #816C61,#B8BCC1 */
 </style>
 </head>
-
 <body>
 <div class="foreground">
-	<img src="images/csg4ed-small.png" alt="Enhancing Social Good in Computing"
-<!-- Site navigation menu -->
-<ul class="navbar">
-	<li><a href="index.html">Home page</a>
-	<li><a href="misc/topic.html">Technology/Topic</a>
-	<li><a href="misc/opportunities.html">Opportunities</a>
-	<li><a href="misc/risks.html">Risks</a>
-	<li><a href="misc/choices.html">Choices</a>
-	<li><a href="misc/ethics.html">Ethical Reflections</a>
-	<li><a href="misc/references.html">References</a>
-	<li><a href="misc/process.html">Process Support</a>
-</ul>
-
-<!-- Main content -->
-<h1>CTiS: Impact of Technology Site</h1>
-</ul>
-<p>This mock-up site is intended to support your team project so you can take this as a set of files and as a starting point and adapt it to your preference. 
-	It is built on a W3C site tutorial so does not claim to be flash, but now has an image, [of a paper we wrote a while back on CSED4G (Computing Education for the Social Good)]</p>
-<p>The site is not particularly well presented, but as the site uses HTML and has been styled with CSS it can be regarded as a <em>"minimum viable product"</em> for the purposes of this project&hellip;
-	It has some default links, which you can take as a start for your site structure.  The <em>Process Support </em>Links provides guidance which will be needed for presenting your final project. </p>
-
-<!-- Sign and date the page, it's only polite! -->
-<address>
-Made 1 March 2021<br>
-by Tony Clear.
-</address>
-<p><em>thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p>
-</em>
-<p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href= "https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p>
-</em>
-	
-	
+	<div>
+		<!-- Site navigation menu -->
+		<nav class="navbar navbar-light bg-light fixed-top">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">
+							Home page
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="misc/topic.html">
+							Technology/Topic
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="misc/opportunities.html">
+							Opportunities
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="misc/risks.html">
+							Risks
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="misc/choices.html">
+							Choices
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="misc/ethics.html">
+							Ethical Reflections
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="misc/references.html">
+							References
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="misc/process.html">
+							Process Support
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 	</div>
-
+	<div>
+		<!-- Main content -->
+		<h1>CTiS: Impact of Technology Site</h1>
+		<p>This mock-up site is intended to support your team project so you can take this as a set of files and as a starting point and adapt it to your preference. 
+			It is built on a W3C site tutorial so does not claim to be flash, but now has an image, [of a paper we wrote a while back on CSED4G (Computing Education for the Social Good)]</p>
+		<p>The site is not particularly well presented, but as the site uses HTML and has been styled with CSS it can be regarded as a <em>"minimum viable product"</em> for the purposes of this project&hellip;
+			It has some default links, which you can take as a start for your site structure.  The <em>Process Support </em>Links provides guidance which will be needed for presenting your final project. </p>
+		
+		<!-- Sign and date the page, it's only polite! -->
+		<address>
+		Made 1 March 2021<br>
+		by Tony Clear.
+		</address>
+		<em>
+		<p>thanks to W3C for tutorial and adapted code from
+			<a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">
+				Style Examples
+			</a>
+		</p>
+		</em><em>
+		<p>also thanks to WDN for HTML and CSS resources and any adapted code snippets from
+			<a href= "https://developer.mozilla.org/en-US/docs/Web">
+				Mozilla Developer Network
+			</a>
+		</p>
+		</em>
+	</div>
+</div>
 </body>
 </html>
