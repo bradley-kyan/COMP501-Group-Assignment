@@ -13,63 +13,77 @@ html {
 body {
 	background: #FFFFFF
 }
+.nav-button {
+	margin-left: .8rem;
+}
+.brand-position {
+	position: fixed; /* or absolute */
+	left: 45%;
+	top: inherit;
+	margin-top: 0.3125rem;
+}
+.foreground {
+	padding: 0.8rem;
+	padding-top: 4rem;
+}
 /* Colout Pallete: #2274A5, #FFFFFF, #E9F1F7, #131B23, #816C61,#B8BCC1 */
 </style>
 </head>
 <body>
-<div class="foreground">
-	<div>
-		<!-- Site navigation menu -->
-		<nav class="navbar navbar-light bg-light fixed-top">
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarCollapse">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link active" href="index.html">
-							Home page
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="misc/topic.html">
-							Technology/Topic
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="misc/opportunities.html">
-							Opportunities
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="misc/risks.html">
-							Risks
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="misc/choices.html">
-							Choices
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="misc/ethics.html">
-							Ethical Reflections
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="misc/references.html">
-							References
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="misc/process.html">
-							Process Support
-						</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+<!-- Site navigation menu -->
+<nav class="navbar navbar-light bg-light fixed-top">
+	<div class="brand-position navbar-brand">
+		<p>Online Dating</p>
 	</div>
+	<button class="navbar-toggler nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	<img style="height: 1.2rem; margin: .2rem" src="images/nav-button.svg">
+	</button>
+	<div class="collapse navbar-collapse" id="navbarCollapse">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link active" href="index.html">
+				Home page
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="misc/topic.html">
+				Technology/Topic
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="misc/opportunities.html">
+				Opportunities
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="misc/risks.html">
+				Risks
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="misc/choices.html">
+				Choices
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="misc/ethics.html">
+				Ethical Reflections
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="misc/references.html">
+				References
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="misc/process.html">
+				Process Support
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+<div class="foreground">
 	<div>
 		<!-- Main content -->
 		<h1>CTiS: Impact of Technology Site</h1>
@@ -86,13 +100,13 @@ body {
 		<em>
 		<p>thanks to W3C for tutorial and adapted code from
 			<a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">
-				Style Examples
+			Style Examples
 			</a>
 		</p>
 		</em><em>
 		<p>also thanks to WDN for HTML and CSS resources and any adapted code snippets from
 			<a href= "https://developer.mozilla.org/en-US/docs/Web">
-				Mozilla Developer Network
+			Mozilla Developer Network
 			</a>
 		</p>
 		</em>
