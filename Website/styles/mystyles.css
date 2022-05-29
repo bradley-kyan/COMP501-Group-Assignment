@@ -14,11 +14,31 @@ body {
 	top: inherit;
 	margin-top: 0.3125rem;
 }
+.brand-position::after {
+	content:"";
+    background: #ccc;
+	display: block;    
+    position: fixed;
+	margin-left: -50vw;
+	width: 200vw;
+   	border-bottom: 4px solid rgba(237,237,237,1.00);
+
+}
 .foreground {
 	padding: 0.8rem;
 	padding-top: 4rem;
 }
 
+.bg-light
+{
+	background-color: #FFFFFF !important;
+	width: 500px;
+}
+.navbar-collapse
+{
+	background-color: rgba(237,237,237,1.00);
+	margin-top: 1rem
+}
 table {
   border-collapse: collapse;
   border: 2px solid rgb(200,200,200);
