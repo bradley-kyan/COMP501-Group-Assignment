@@ -1,7 +1,8 @@
 $(document).ready(function () {
 	$(".bg-light").css(
 		"width", "" + $(window).width() / 1.5 + "px"
-	)
+	);
+	$(".navbar").after('<span class="nav-line"></span>');
 });
 
 $(".nav-item").mouseover(function () {
