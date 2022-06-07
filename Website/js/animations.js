@@ -2,6 +2,8 @@ $(document).ready(function () {
 	$(".bg-light").css(
 		"width", "" + $(window).width() / 1.5 + "px"
 	);
+	$("address").before('<hr>');
+	$("address").before('<p><a href="#" class="hyperlink-top">Back to top</a></p>');
 	$(".navbar").after('<span class="nav-line"></span>');
 });
 

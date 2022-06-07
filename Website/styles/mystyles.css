@@ -1,9 +1,17 @@
-/* Colout Pallete: #2274A5, #FFFFFF, #E9F1F7, #131B23, #816C61,#B8BCC1 */
+/* Colout Pallete: #2274A5, #FFFFFF, #E9F1F7, #131B23, #816C61, #B8BCC1 */
 html {
 	scroll-behavior: smooth
 }
 body {
 	background: #FFFFFF
+}
+h1,h2,h3,h4,h5,b
+{
+	color: #131B23;
+}
+h1,h2,h3,h4,h5
+{
+	font-variant-caps: petite-caps;
 }
 .nav-button {
 	margin-left: .8rem;
@@ -14,25 +22,35 @@ body {
 	right: 50%;
 	top: inherit;
 	margin-top: 0.3125rem;
+	color: #E9F1F7 !important;
+	font-variant-caps: petite-caps;
+
 }
+
 .foreground {
 	padding: 0.8rem;
 	padding-top: 4.5rem;
 }
 .bg-light {
-	background-color: #FFFFFF !important;
+	background-color: #131B23 !important;
 }
 .navbar-collapse {
-	background-color: rgba(237, 237, 237, 1.00);
+	background-color: #22303F;
 	margin-top: .5rem
 }
 .nav-line {
 	width: 200vw;
 	height: 3.5rem;
-	background-color: #FFFFFF;
+	background-color: #131B23;	
 	position: fixed;
 	z-index: 1;
-	border-bottom: 4px solid rgba(237, 237, 237, 1.00);
+	border-bottom: 4px solid #22303F;
+}
+.nav-link
+{
+	color: #E9F1F7 !important;
+	font-size: 1.1rem;
+	font-variant-caps: small-caps;
 }
 table {
 	border-collapse: collapse;
@@ -58,7 +76,7 @@ tr:nth-child(odd) td {
 }
 .foreground
 {
-	-ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
+	-ms-overflow-style: none;
+    scrollbar-width: none;
     overflow-y: hidden; 
 }
