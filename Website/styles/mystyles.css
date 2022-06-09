@@ -13,6 +13,15 @@ h1,h2,h3,h4,h5
 {
 	font-variant-caps: petite-caps;
 }
+b
+{
+	padding-left: 17px
+}
+.vert-rule
+{
+	padding-left: 15px;
+	border-left:  2px solid #22303F;
+}
 .nav-button {
 	margin-left: .8rem;
 	background-color: #E9F1F7;

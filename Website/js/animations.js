@@ -17,6 +17,7 @@ $(document).ready(function(){
 	$('h5').addClass('Section');
 	$('p').addClass('Section');
 	$('b').addClass('Section');
+	$('p').addClass('vert-rule');
 	$('address').addClass('Section');
 	
 	width = $(window).width();
