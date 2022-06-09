@@ -28,8 +28,7 @@ b
 }
 .brand-position {
 	position: fixed;
-	left: 40%;
-	right: 50%;
+	left: 150px;
 	top: inherit;
 	margin-top: 0.3125rem;
 	color: #E9F1F7 !important;
@@ -37,7 +36,35 @@ b
 	border-left: 0px !important;
 
 }
-
+.container
+{
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+.circle-nav
+{
+	height: 8rem;
+  	width: 8rem;
+  	background-color: #22303F;
+  	border-radius: 50%;
+	border: 3px solid #22303F;
+	margin-top: 2.5rem;
+	transition: box-shadow 2s, transform .4s;
+}
+.circle-nav:hover
+{
+	box-shadow: 10px 10px 20px #40628F inset,-10px -10px 20px #40628F inset;
+	transform: scale(110%);
+	transition: box-shadow .7s, transform .2s;
+}
+.circle-text
+{
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 1.1rem;
+	font-variant-caps: petite-caps;
+}
 .foreground {
 	padding: 0.8rem;
 	padding-top: 4.5rem;
