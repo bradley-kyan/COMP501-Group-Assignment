@@ -10,6 +10,7 @@ $(document).ready(function () {
 var width;
 $(document).ready(function(){
 	$('h1').addClass('Section');
+	$('hr').addClass('Section');
 	$('h2').addClass('Section');
 	$('h3').addClass('Section');
 	$('h4').addClass('Section');
